@@ -1,0 +1,77 @@
+@color-theme1:#118FD6;
+@color-theme2:#58b0e2;
+@color-white:#ffffff;
+@color-gray:#ededed;
+@color-footer:#292b2b;
+@color-alert-wrong:#de492a;
+@color-alert-right:#5cca2e;
+@color-text:#4a4a4a;
+@color-border:#d9d9d9;
+@border-radius-2:2px;
+@h30:30px;
+@h20:20px;
+@h14:14px;
+@h12:12px;
+//@color-theme3:#F5A623;
+//@background-color-default:#F5F5F5;
+//@background-color-second:#FFFFFF;
+//@system-default-color-text:#212121;
+//@default-text-color:#727272;
+//@btn-text-color:#ffffff;
+//@disable-btn-background-color:#eaeaea;
+//@icon-color-default:#b6b6b6;
+//@border-color:#E5E5E5;
+//@tip-color:#f79700;
+//@drop-down-list-background-color:#f7f8fc;
+//@max-font-size:24px;
+//@title-font-size:18px;
+//@banner-font-size:15px;
+//@text-font-size:14px;
+//@tip-font-size:12px;
+//@min-font-size:10px;
+
+
+/*Reset CSS*/
+*{ margin:0; padding:0; list-style: none;font-family:"微软雅黑", "黑体", "宋体";}
+body{ margin:0; padding:0; overflow-x:hidden; font-family:"微软雅黑", "黑体", "宋体";}
+div{margin: 0;padding: 0;border: 0;}
+form{margin: 0;padding: 0;border: 0;}
+img {margin: 0;padding: 0;border: 0;}
+a { font-size:13px; text-decoration:none;}
+a:hover { text-decoration:underline;}
+table,tr,td,dr,th {margin: 0;padding: 0;}
+table{ border-collapse:collapse; border-spacing:0; }
+ul,ol,li,dl,dt,dd{margin: 0;padding: 0;list-style-type:none; }
+.clear{ font-size: 0; margin: 0; padding: 0; clear: both;height: 0; border: 0; line-height:0;}
+
+
+/*图标字体样式*/
+@font-face {font-family: 'fontawesome'; src: url('../../font/fontawesome-webfont.ttf'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'icomoon'; src:url('../../font/icomoon.eot?b30uyj'); src:url('../../font/icomoon.eot?b30uyj#iefix') format('embedded-opentype'), url('../../font/icomoon.ttf?b30uyj') format('truetype'), url('../../font/icomoon.woff?b30uyj') format('woff'), url('../../font/icomoon.svg?b30uyj#icomoon') format('svg'); font-weight: normal; font-style: normal;}
+.web-icon-font{font-family: 'fontawesome'; font-size: 15px; font-style: normal;}
+.web-icon-font2{font-family: 'icomoon'; font-size: 15px; font-style: normal; text-transform: none;}
+
+
+/*jquery-ui日历控件样式*/
+.ui-datepicker {box-shadow: 0 0 4px #ccc;*width: 220px;}
+.ui-datepicker-header {text-align: center;line-height: 24px;border:1px #d7d7d7 solid;border-bottom:none;background-color: #fdfce1;}
+.ui-datepicker-header a {cursor: pointer;}
+.ui-datepicker-header .ui-datepicker-prev {float: left;margin-left: 5px}
+.ui-datepicker-header .ui-datepicker-next {float: right;margin-right: 5px}
+.ui-datepicker-calendar {border-collapse: collapse;border:1px #d7d7d7 solid;background-color: #fff;width: 220px;}
+.ui-datepicker-calendar tr th {text-align: center;}
+.ui-datepicker-calendar tr td {height: 22px;text-align: center;border:1px #d7d7d7 solid;line-height: 22px;}
+.ui-datepicker-calendar tr td.ui-datepicker-today {background-color: #4680ba;}
+.ui-datepicker-calendar tr td.ui-datepicker-today a {color: #fff;background-color: #4680ba;}
+.ui-datepicker-calendar .ui-state-highlight {margin-left: 0;}
+.ui-datepicker-calendar .ui-datepicker-unselectable {color: #ccc;}
+.ui-datepicker-calendar .ui-state-active {background-color: #fdfce1}
+
+
+/*公用弹窗控件样式*/
+.messagebox_fixed {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.3); position: fixed; top: 0;  left: 0;}
+.messagebox_fixed .messagebox_box {background: #ffffff; padding: 5px; border-radius: 5px; box-shadow: 0 3px 26px rgba(0, 0, 0, .9); position: fixed; top: 50%; left: 50%;}
+.messagebox_fixed .messagebox_box .messagebox_title {height: 30px; line-height: 30px; padding: 0 5px; position: relative;}
+.messagebox_fixed .messagebox_box .messagebox_close {width: 20px; height: 20px; cursor: pointer; -webkit-transtion:0.4s all ease; -moz-transition:0.4s all ease; transition:0.4s all ease; position: absolute; top: 0; right: 5px;}
+.messagebox_fixed .messagebox_box .messagebox_close:hover {-webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); transform:rotate(180deg);}
+.messagebox_fixed .messagebox_box .messagebox_content { line-height: 25px; background: #f7f7f7; padding: 20px 25px;}

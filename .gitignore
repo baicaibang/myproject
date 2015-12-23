@@ -1,0 +1,13 @@
+.idea
+node_modules
+/tmp
+/log
+/dist
+/public/script/libs
+/doc
+controller.all.js
+config/config.local.json
+public/portal/css/*.css
+public/portal/css/*.css.map
+public/manager/css/*.css
+public/manager/css/*.css.map

@@ -1,0 +1,46 @@
+.drawName{
+  font-size: 18px;
+}
+
+.gameContent {
+  position:absolute;
+  right:19px;
+  top:19px;
+  width:1000px;
+  table{
+    float:right;
+    border-collapse: separate;
+    border-spacing: 2px;
+  }
+  td{
+    width:30px;
+    height:30px;
+    text-align:center;
+    vertical-align:middle;
+    border:1px solid #ffdd99;
+    background:#fff9ed;
+  }
+}
+.gameContent p{
+  position:absolute;
+  right:36px;
+  top:36px;
+  width:100px;
+  height:100px;
+  background:url("../images/game.jpg") no-repeat 0 0;
+  padding-left:0;
+  background-size: cover; -moz-background-size: cover;
+}
+.gameContent p.waitGame{
+  background:url("../images/game.jpg") no-repeat -200px 0;
+}
+.gameBtn{
+  z-index:999;
+  display:block;
+  width:100px;
+  height:100px;
+}
+.gameBtn:hover{
+  cursor:pointer;
+  background:url("../images/game.jpg") no-repeat -100px 0;
+}
